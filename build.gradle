@@ -48,6 +48,7 @@ def includeDesktopSupport = false
 repositories {
 			mavenCentral()
 			maven { url 'https://jitpack.io' }
+            maven { url "https://frcmaven.wpi.edu/artifactory/release" }
 }
 // Defining my dependencies. In this case, WPILib (+ friends), and vendor libraries.
 // Also defines JUnit 5.
