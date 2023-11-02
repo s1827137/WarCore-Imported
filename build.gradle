@@ -11,7 +11,7 @@ plugins {
     id 'java-library'
     id 'application'
     id "maven-publish"
-    // id "edu.wpi.first.GradleRIO" version "2023.2.1"
+    id "edu.wpi.first.GradleRIO" version "2023.2.1" 
 }
 
 repositories {
