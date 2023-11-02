@@ -10,6 +10,8 @@ plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
     id 'application'
+    id "maven-publish"
+    id "edu.wpi.first.GradleRIO" version "2023.2.1"
 }
 
 repositories {
